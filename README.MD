@@ -1,3 +1,9 @@
+<style>
+img {
+border-radius: 50%;
+}
+</style>
+
 <p align="center">
 <img 
     src="./assets/cover.png"
