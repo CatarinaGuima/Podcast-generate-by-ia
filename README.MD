@@ -1,17 +1,14 @@
 <p align="center">
 <img 
     src="./assets/cover.png"
-    width="300"
+    width="300px"
+    height="300px"
 />
 </p>
 
 
-<p align="center">
-    preview do podcast
-</p>
-
 <div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
+    [preview do podcast](<audio src="output/piloto.mp3" controls title="Podcast editado"></audio>)
 </div>
 
 # Projeto Podcast Gerado por I.A.s
