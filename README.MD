@@ -1,24 +1,22 @@
-<style>
-img {
-border-radius: 50%;
-}
-</style>
-
 <p align="center">
-<img 
+  <img 
     src="./assets/cover.png"
+    alt="Cover"
     width="300px"
     height="300px"
-/>
+    style="border-radius:50%; object-fit:cover;"
+  />
 </p>
 
-
 <div align="center">
-    [preview do podcast](<audio src="output/piloto.mp3" controls title="Podcast editado"></audio>)
+  <audio controls title="Podcast editado">
+    <source src="output/piloto.mp3" type="audio/mpeg">
+    Seu navegador não suporta reprodução de áudio. 
+    <a href="output/piloto.mp3">Baixe o podcast aqui</a>.
+  </audio>
 </div>
 
 # Projeto Podcast Gerado por I.A.s
-
 
  > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
 
@@ -35,23 +33,22 @@ Utiliza uma esteira de prompts para gerar cada etapa do processo criativo.
 
 ## ✨ Como foi feito ?
 
-- Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
+- Roteiro gerado via chatgpt  
+- Audio gerado pela elevenLabs  
+- Midjourney Para gerar capas  
+- Capcut para tratar aúdio e adicionar sons de fundo  
 
 ## 📚 Materiais
 
 - [Notion Template](https://www.notion.so/PAS-Podcast-AI-Studio-276d39dad06880ce91e3fdb7ccc24ab3)
 - [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
 
-
 ## 🛠️ Instruções de execução
 
 Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
+- 🤖 1. Use os prompts de roteiro no `chatgpt`
+- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no `ElevenLabs`
 - 🤖 3. Use os prompts de artes no `midjourney`
 
 ---
